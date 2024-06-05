@@ -1,0 +1,26 @@
+{
+  "name": "two-step-auth",
+  "version": "1.0.0",
+  "description": "basic two step auth-system",
+  "main": "main.js",
+  
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "Pranesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "qrcode": "^1.5.3",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
